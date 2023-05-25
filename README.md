@@ -18,3 +18,32 @@ namespace MyApplication
      }
   }
 }
+
+using System;
+
+namespace Unit1A
+{
+   class Program
+{
+    Console.WriteLine(variableName);
+    variableName = 117;
+    int myNum = 276;
+    Console.WriteLine(myNum) = 276;
+
+}    
+class Program
+{
+    int sum1 = 117 - 116;
+    Console.WriteLine(sum1);
+    int sum2 = sum1 * 98;
+    Console.WriteLine(sum2);
+    int sum3 = sum2 / 2;
+    Console.WriteLine(sum3);
+
+}
+{
+    Console.WriteLine ("Enter your favorite color");
+    int color = Convert.ToString((Console.ReadLine()));
+    Console.WriteLine ("Your favorite color is: " + color);
+}
+}
