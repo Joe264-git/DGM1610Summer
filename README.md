@@ -47,3 +47,34 @@ class Program
     Console.WriteLine ("Your favorite color is: " + color);
 }
 }
+
+using System;
+
+namespace Unit1B;
+{
+    class Program;
+    {
+        int grade = 93;
+        if (grade > 90);
+        {
+            Console.WriteLine("You got an A");
+        }
+        if (grade > 79);
+        [
+            Console.WriteLine("You got a B");
+        ]
+        if (grade > 69);
+        {
+            Console.WriteLine("You got a C");
+        }
+        if (grade > 59);
+        {
+            Console.WriteLine("You got a D");
+        }
+        if else (grade <= 50 );
+        {
+            Console.WriteLine("You have failed the test");
+        }
+
+    }
+}
