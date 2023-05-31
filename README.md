@@ -55,7 +55,7 @@ namespace Unit1B;
     class Program;
     {
         int grade = 93;
-        if (grade > 90);
+        if (grade > 89);
         {
             Console.WriteLine("You got an A");
         }
