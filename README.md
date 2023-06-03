@@ -78,3 +78,46 @@ namespace Unit1B;
 
     }
 }
+
+using System;
+
+namespace WriteLine.("Unit1B Challenge");
+{
+    Console.WriteLine("Please Enter Your Grade");
+    int grade = Convert.ToInt32(Console.Readline());
+    {
+    case (grade > 89):
+        
+            Console.WriteLine("You got an A");
+            break;
+        
+        case (grade > 79):
+        
+            Console.WriteLine("You got a B");
+            break;
+        
+        case (grade > 69):
+        
+            Console.WriteLine("You got a C");
+            break;
+        case (grade > 59):
+        Console.WriteLine("You Got A D");
+        break;
+        case (grade < 50):
+        Console.WriteLine("You Failed The Test");
+        {
+            Console.WriteLine("What is Your Favorite Subject?");
+            int Subject = Convert.ToInt32(Console.Readline());
+            {
+                case (Math):
+                Console.WriteLine("Explore Math Concepts");
+                break;
+
+                case (English):
+                Console.WriteLine("Read Poetry");
+                break;
+            }
+        }
+        
+            }
+}
